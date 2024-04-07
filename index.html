@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="KunquDB, a large-scale, well-annotated audio-visual dataset comprising 339 speakers and 128 hours of content. Originating from the Kunqu Opera Art Canon (Kunqu yishu dadian), KunquDB is meticulously structured by dialogue lines, providing explicit annotations such as character names, speaker names, gender, vocal manner classifications and accompanied by preliminary text transcriptions.">
+  <meta name="author" content="Huali Zhou">
+  <link rel="canonical" href="https://hualizhou167.github.io/KunquDB/">
+
+  <title>KunquDB</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  
+    
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
+      <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    
+      <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    
+  
+  <!-- Custom styles for this theme -->
+  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="assets/css/agency.css" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+  
+</head>
+
+
+  <body id="page-top">
+
+        <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">KunquDB</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+        
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">statistics</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#demo">demo</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#paper">paper</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#download">download</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#acknowledgment">acknowledgment</a></li>
+        
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Header -->
+  
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+          <div style="padding: 10px;">
+            <a class="btn btn-primary btn-xl js-scroll-trigger"
+                href="#about"
+                style="background-color: transparent; border: none; box-shadow: none;">
+                <div class="intro-lead-in" style="color: #FEC810; font-size: 90px;"><p>KunquDB</p>
+</div>
+            </a>
+            <div class="intro-heading text-uppercase" style="color: #FEC810; font-size: 36px;"><p>a large-scale, well-annotated audio-visual Kunqu Opera dataset</p>
+</div>
+          </div>
+            <!-- <div style="background-color: #f0ffef; padding: 10px;">
+                <a class="btn btn-primary btn-xl js-scroll-trigger"
+                    href="#about"
+                    style="background-color: #f0ffef; border: none; box-shadow: none;">
+                    <div class="intro-lead-in" style="color: #2ED191; font-size: 80px;"><p>KunquDB</p>
+</div>
+                </a>
+                <div class="intro-heading text-uppercase" style="color: #2ED191; font-size: 30px;"><p>a large-scale, well-annotated audio-visual Kunqu Opera dataset</p>
+</div>
+            </div> -->
+	  <!--<div class="intro-lead-in" style="background-color: #f0ffef; color: #2ED191; font-size: 80px;margin-bottom: 0;"><p>KunquDB</p>
+</div><div class="intro-heading text-uppercase" style="background-color: #f0ffef; color: #2ED191;font-size: 18px;margin-top: 0;"><p>a large-scale, well-annotated audio-visual Kunqu Opera dataset</p>
+</div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>-->
+      </div>
+    </div>
+  </header>
+  
+  <!-- End Header -->
+
+<!-- About -->
+
+<section class="page-section" id="about">
+  <div class="container" style="background-color: white;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">About</h2>
+        <!-- <h3 class="section-subheading text-muted">our story</h3> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div style="margin-top: 20px;"></div>
+        <div class="large" style="font-size: 18px;"><h3 id="kunqudb">KunquDB</h3>
+<ul>
+  <li>A large-scale, well-annotated audio-visual dataset</li>
+  <li>Comprises <strong>339 speakers</strong> and <strong>128 hours</strong> of content</li>
+  <li>Originated from the Kunqu Opera Art Canon, <strong><em>Kunqu yishu dadian</em></strong></li>
+  <li>Structured by dialogue lines, providing explicit annotations: character names, speaker names, gender, vocal manner classifications and preliminary text transcriptions</li>
+</ul>
+
+<h3 id="kunqu-yishu-dadian"><em>Kunqu yishu dadian</em></h3>
+<p>The <strong>Kunqu Opera Art Canon</strong>, encompasses the most significant literary, musical, and audiovisual materials spanning over 600 years,  embodying the essence of Kunqu Opera art.
+Specifically, it contains over 22.3 million words of textual documentation, 396 sets of reprinted documents totaling over 70,000 pages, 127 hours of recorded audio, over 400 hours of video recordings, and over 6,000 images, all compiled into 149 volumes. 
+For more details about this book, you can visit the official website of its <a href="http://www.awpub.com/front/book/10-858">publisher</a>, or check out its introduction on <a href="https://book.douban.com/subject/30454913/">douban</a>.</p>
+
+<h3 id="note">Note</h3>
+<div style="overflow: auto;">
+    <p style="float: left; width: calc(100% - 320px);">After purchasing the book, we negotiated with the publisher and secured their authorization for its utilization in Kunqu Opera research. The publisher explicitly stated that the book's digital resource can be employed solely for scholarly or research endeavors upon the approval of the publisher. It may not be illegally disseminated or used for commercial purposes.</p>
+    <img src="assets/img/about/kunqubook.png" alt="Kunqu yishu dadian" style="float: right; margin-left: 10px;" width="300" height="400" />
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End About -->
+<!-- portfolio -->
+
+<section class="bg-light page-section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase"><p>statistics</p>
+</h2>
+      </div>
+    </div>
+    <div class="row">
+      
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/role-types.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Role Type</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+      
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/manner.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Vocal Manner</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+      
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/duration.png" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Duration</h4>
+              <p class="text-muted"></p>
+            </div>
+          </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Modals -->
+
+
+<div
+  class="portfolio-modal modal fade"
+  id="p1"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Role Type</h2>
+              <p class="item-intro text-muted">Distribution of speaker role information. The legend indicates the types of roles performed by speakers throughout the dataset.</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="assets/img/portfolio/role-types.png"
+                alt=""
+              />
+              <div class="content-wrapper" style="text-align: left;">
+                <p><ul>
+  <li><strong><em>Dan</em></strong> represents speakers portraying <strong>young female</strong> characters.</li>
+  <li><strong><em>LaoDan</em></strong> represents speakers portraying <strong>old female</strong> characters.</li>
+  <li><strong><em>OtherFemale</em></strong> represents speakers portraying other female characters beyond the categories of <strong><em>Dan</em></strong> or <strong><em>LaoDan</em></strong>.</li>
+  <li><strong><em>XiaoSheng</em></strong> represents speakers portraying <strong>young male</strong> characters.</li>
+  <li><strong><em>LaoSheng</em></strong> represents speakers portraying <strong>old male</strong> characters.</li>
+  <li><strong><em>OtherMale</em></strong> represents speakers portraying other male characters beyond the categories of <strong><em>XiaoSheng</em></strong> or <strong><em>LaoSheng</em></strong>.</li>
+  <li><strong><em>MultiGender</em></strong> represents speakers portraying <strong>characters of both genders</strong>.</li>
+</ul>
+</p>
+              </div>
+              <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div
+  class="portfolio-modal modal fade"
+  id="p2"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Vocal Manner</h2>
+              <p class="item-intro text-muted">Distribution of utterances by vocal manner frequency. Notably, the total duration for each manner type is nearly equal.</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="assets/img/portfolio/manner.png"
+                alt=""
+              />
+              <div class="content-wrapper" style="text-align: left;">
+                <p>
+</p>
+              </div>
+              <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div
+  class="portfolio-modal modal fade"
+  id="p3"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">duration</h2>
+              <p class="item-intro text-muted">The duration distribution of the KunquDB</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="assets/img/portfolio/duration.png"
+                alt=""
+              />
+              <div class="content-wrapper" style="text-align: left;">
+                <p>
+</p>
+              </div>
+              <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- End Portfolio Modals -->
+
+
+<!-- demo -->
+
+<section class="page-section" id="demo">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">demo</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-15 mx-auto text-left">
+        <div style="margin-top: 20px;"></div>
+        <div class="large" style="font-size: 18px;"><h3 id="annotation-data-format">Annotation Data Format</h3>
+<div style="margin-top: 20px;"></div>
+<ul>
+  <li>Data structured by dialogue lines, metadata stored in a CSV table</li>
+  <li>Contains all labels and annotations for each utterance</li>
+  <li>Information for each utterance includes:
+    <ul>
+      <li><strong>video ID</strong> indicates the corresponding video;</li>
+      <li><strong>start and end timestamps</strong> specify the location of the utterance within the video;</li>
+      <li><strong>character name</strong> denotes the character portrayed in the video, often associated with the role type, for the corresponding utterance;</li>
+      <li><strong>performer name</strong> represents the individual performer portraying the character for the corresponding utterance;</li>
+      <li><strong>vocal manner type</strong> categorizes the utterance into “<strong>stage speech</strong>” or “<strong>singing</strong>”, depending on how it’s vocalized;</li>
+      <li><strong>preliminary content transcription</strong> corresponds to the transcription of the spoken content within the utterance.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Here’s a screenshot of the annotation:</p>
+<div style="text-align:center; padding-bottom:36px;">
+    <img src="assets/img/annotation.jpg" alt="Annotation Screenshot" width="500" height="300" />
+</div>
+<div style="margin-top: 20px;"></div>
+<h3 id="annotation-data-examples">Annotation Data Examples</h3>
+<div style="margin-top: 20px;"></div>
+<p>Due to data restrictions, we choose not to publicly disclose the data from the KunquDB dataset as examples.
+Instead, we showcase similar annotations for online Kunqu Opera videos here.</p>
+<div style="margin-top: 20px;"></div>
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .demo_row {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .cell {
+        padding: 0 10px;
+    }
+    .cell.play-video {
+        flex: 0;
+    }
+    .iframe-container {
+        width: 400px;
+        height: 300px;
+    }
+    /* 设置列名称的固定宽度 */
+    .cell:nth-child(1) { width: 95px;}
+    .cell:nth-child(2) { width: 60px;}
+    .cell:nth-child(3) { width: 65px;}
+    .cell:nth-child(4) { width: 95px;}
+    .cell:nth-child(5) { width: 95px;}
+    .cell:nth-child(6) { width: 90px;}
+    .cell:nth-child(7) { width: 180px;}
+</style>
+
+<div class="container">
+    <div class="demo_row">
+        <div class="cell"><strong>Video Name</strong></div>
+        <div class="cell"><strong>Start time</strong></div>
+        <div class="cell"><strong>End time</strong></div>
+        <div class="cell"><strong>Character name</strong></div>
+        <div class="cell"><strong>Performer name</strong></div>
+        <div class="cell"><strong>Vocal manner</strong></div>
+        <div class="cell"><strong>Text transcription</strong></div>
+        <div class="cell play-video"><strong>Play video</strong></div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">00:11</div>
+        <div class="cell">00:47</div>
+        <div class="cell"><strong>杜丽娘</strong><br /> Liniang Du</div>
+        <div class="cell"><strong>单雯</strong><br /> Wen Shan</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>原来姹紫嫣红开遍</strong><br /> A riot of deep purple and bright red.</div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/DK_27SRDcDs?si=Jx9LpK0YjCpdCAS7&amp;start=11;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">01:12</div>
+        <div class="cell">01:30</div>
+        <div class="cell"><strong>杜丽娘</strong><br /> Liniang Du</div>
+        <div class="cell"><strong>单雯</strong><br /> Wen Shan</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>良辰美景奈何天</strong><br /> Why does Heaven give us brilliant day and dazzling sight?</div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/DK_27SRDcDs?si=Jx9LpK0YjCpdCAS7&amp;start=72;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">00:30</div>
+        <div class="cell">00:50</div>
+        <div class="cell"><strong>柳梦梅</strong><br /> Mengmei Liu</div>
+        <div class="cell"><strong>施夏明</strong><br /> Xiaming Shi</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>则把云鬟点 红松翠偏</strong><br /> Let me rerange your tresses in disarray. </div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/_LngsAMjR0g?si=RXX592GYWsFnc41w&amp;start=30;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">02:25</div>
+        <div class="cell">02:32</div>
+        <div class="cell"><strong>柳梦梅</strong><br /> Mengmei Liu</div>
+        <div class="cell"><strong>施夏明</strong><br /> Xiaming Shi</div>
+        <div class="cell">Stage speech</div>
+        <div class="cell"><strong>姐姐你身子乏了</strong><br /> Fair maiden, you are tired. </div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/_LngsAMjR0g?si=RXX592GYWsFnc41w&amp;start=145;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牧羊记</strong><br /> Shepherd's Notes</div>
+        <div class="cell">00:26</div>
+        <div class="cell">01:20</div>
+        <div class="cell"><strong>李陵</strong><br /> Ling Li</div>
+        <div class="cell"><strong>施夏明</strong><br /> Xiaming Shi</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>到虏庭与哥哥报冤</strong><br /> To the enemy's court, I'll seek justice for my brother.</div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/_IH2wjBQbOM?si=xXWJjMV2voDwyjqD&amp;start=26;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牧羊记</strong><br /> Shepherd's Notes</div>
+        <div class="cell">05:35</div>
+        <div class="cell">05:38</div>
+        <div class="cell"><strong>苏武</strong><br /> Wu Su</div>
+        <div class="cell"><strong>柯军</strong><br /> Jun Ke</div>
+        <div class="cell">Stage speech</div>
+        <div class="cell"><strong>竟在此享荣华受富贵</strong><br /> Here you unexpectedly enjoy wealth and honor.</div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/_IH2wjBQbOM?si=xXWJjMV2voDwyjqD&amp;start=335;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牧羊记</strong><br /> Shepherd's Notes</div>
+        <div class="cell">11:00</div>
+        <div class="cell">11:06</div>
+        <div class="cell"><strong>苏武</strong><br /> Wu Su</div>
+        <div class="cell"><strong>柯军</strong><br /> Jun Ke</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>我的忠心铁石样坚</strong><br /> My loyalty is as firm as iron and stone.</div>
+        <div class="cell play-video">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/_IH2wjBQbOM?si=xXWJjMV2voDwyjqD&amp;start=660;autoplay=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">03:03</div>
+        <div class="cell">03:21</div>
+        <div class="cell"><strong>杜丽娘</strong><br /> Liniang Du</div>
+        <div class="cell"><strong>单雯</strong><br /> Wen Shan</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>乱煞年光遍</strong><br /> Chaos reigns, time passes in chaos.</div>
+        <div class="cell play-video">
+            <iframe class="iframe-container" src="//player.bilibili.com/player.html?aid=73033391&amp;bvid=BV1EE41127Ap&amp;cid=124911993&amp;p=1&amp;t=183&amp;autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">04:42</div>
+        <div class="cell">04:55</div>
+        <div class="cell"><strong>杜丽娘</strong><br /> Liniang Du</div>
+        <div class="cell"><strong>单雯</strong><br /> Wen Shan</div>
+        <div class="cell">Stage speech</div>
+        <div class="cell"><strong>剪不断理还乱闷无端</strong><br /> Endless twists and turns, cutting without end.</div>
+        <div class="cell play-video">
+            <iframe class="iframe-container" src="//player.bilibili.com/player.html?aid=73033391&amp;bvid=BV1EE41127Ap&amp;cid=124911993&amp;p=1&amp;t=282&amp;autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">03:57</div>
+        <div class="cell">04:16</div>
+        <div class="cell"><strong>春香</strong><br /> Chunxiang</div>
+        <div class="cell"><strong>陶一春</strong><br /> Yichun Tao</div>
+        <div class="cell">Singing</div>
+        <div class="cell"><strong>恁今春关情似去年</strong><br /> The affairs of this spring seem similar to those of last year.</div>
+        <div class="cell play-video">
+            <iframe class="iframe-container" src="//player.bilibili.com/player.html?aid=73033391&amp;bvid=BV1EE41127Ap&amp;cid=124911993&amp;p=1&amp;t=237&amp;autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+    <div class="demo_row">
+        <div class="cell"><strong>牡丹亭</strong><br /> Peony Pavilion</div>
+        <div class="cell">04:36</div>
+        <div class="cell">04:41</div>
+        <div class="cell"><strong>春香</strong><br /> Chunxiang</div>
+        <div class="cell"><strong>陶一春</strong><br /> Yichun Tao</div>
+        <div class="cell">Stage speech</div>
+        <div class="cell"><strong>小姐 你侧着宜春髻子恰凭栏</strong><br /> Miss, leaning on the railing with your Yichun hairpin askew.</div>
+        <div class="cell play-video">
+            <iframe class="iframe-container" src="//player.bilibili.com/player.html?aid=73033391&amp;bvid=BV1EE41127Ap&amp;cid=124911993&amp;p=1&amp;t=276&amp;autoplay=false" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End demo -->
+<!-- paper -->
+
+<section class="page-section" id="paper">
+  <div class="container" style="background-color: white;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">paper</h2>
+        <div style="height: 20px;"></div>
+        <h3 class="section-heading" style="line-height: 1.5; font-family: 'Times New Roman', Times, serif;"><p><a href="https://arxiv.org/abs/2403.13356">KunquDB: An Attempt for Speaker Verification <br /> in the Chinese Opera Scenario</a></p>
+</h3>
+        <div style="height: 5px;"></div>
+        <h5 class="section-heading" style=" font-family: 'Times New Roman', Times, serif;">Huali Zhou, Yuke Lin, Dong Liu, Ming Li</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div style="margin-top: 20px;"></div>
+        <div class="large" style="font-size: 18px;"><h4 id="citation">Citation:</h4>
+<p>If our work is useful for your research, please consider citing:</p>
+</div>
+        <div class="large" style="font-size: 18px; padding: 10px; background-color: #F6F8FA;"><div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">zhou2024kunqudb</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{KunquDB: An Attempt for Speaker Verification in the Chinese Opera Scenario}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Zhou, Huali and Lin, Yuke and Liu, Dong and Li, Ming}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{arXiv preprint arXiv:2403.13356}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2024}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End paper -->
+<!-- download -->
+
+<section class="page-section" id="download">
+  <div class="container" style="background-color: white;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">download</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-left">
+        <div style="margin-top: 20px;"></div>
+        <div class="large" style="font-size: 18px;"><h3 id="download">Download</h3>
+<p>Researchers can gain access to the source video data by purchasing <a href="http://www.awpub.com/front/book/10-858"><em>Kunqu yishu dadian</em></a>.
+It is the user’s responsibility to get the approval from the publisher to conduct research for non-commercial purposes.
+We only provide our annotation dataset and <a href="https://github.com/hualizhou167/KunquDB/tree/main/code">processing scripts</a>.
+To obtain the annotation dataset, please contact us via E-mail: <strong>huali.zhou@dukekunshan.edu.cn</strong> or <strong>ming.li369@dukekunshan.edu.cn</strong>, along with your affiliation and the consent from the publisher.</p>
+
+<h3 id="license">License</h3>
+<p>The dataset is licensed under the <strong>CC BY-NC-SA 4.0</strong> license.
+This means that you can share and adapt the dataset for non-commercial purposes as long as you provide appropriate attribution and distribute your contributions under the same license.
+Detailed terms can be found on <a href="assets/LICENSE">LICENSE</a>.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End download -->
+<!-- acknowledgment -->
+
+<section class="page-section" id="acknowledgment">
+  <div class="container" style="background-color: white;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">acknowledgment</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center">
+        <div style="margin-top: 20px;"></div> <!-- 在这里添加一个具有一定 margin 的 div 元素 -->
+        <div class="large" style="font-size: 18px;"><p>This research is funded by the Kunshan Municipal Government Research Funding under the project "Deep Learning based Singing Voice Synthesis for Kun Opera". We want to thank the publisher for allowing us to conduct research on their data and DKU library staff members for their coordination. Special thanks to Xiaoyi Qin for his assistance.</p>
+</div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- End acknowledgment -->
+
+
+	  <!-- Footer -->
+<footer class="footer" id="footer" style="background-color: white">
+    <div class="container">
+      
+      <div class="row align-items-center">
+        <div class="col-md-4 text-md-left">
+          <span class="copyright"
+            >Copyright &copy; DKU 2024</span
+          >
+        </div>
+        <!-- Legal -->
+        <!-- <div class="col-md-8 text-md-right">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="legal"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div> -->
+      </div>
+      
+    </div>
+  </footer>
+  
+  <!-- End Footer -->
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="assets/js/jquery.min.js"></script>
+	  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="assets/js/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="assets/js/jqBootstrapValidation.js"></script>
+	  <script src="assets/js/contact_me.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="assets/js/agency.min.js"></script>
+
+  </body>
+</html>

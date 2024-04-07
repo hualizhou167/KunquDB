@@ -1,0 +1,22 @@
+LICENSE FOR THE KunquDB DATASET
+
+Description:
+The KunquDB dataset is a large-scale, well-annotated audio-visual dataset comprising 339 speakers and 128 hours of content. Originating from the Kunqu Opera Art Canon (_Kunqu yishu dadian_), KunquDB is meticulously structured by dialogue lines, providing explicit annotations such as character names, speaker names, gender, vocal manner classifications and accompanied by preliminary text transcriptions. As an audio-visual dataset, it has potential uses in a variety of applications. For more, please visit https://hualizhou167.github.io/KunquDB.
+
+License:
+The data falls under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. More details on this license can be viewed at https://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+By downloading or using this dataset, you agree to abide by the terms of the CC BY-NC-SA 4.0 license, including any modifications or redistributions in any form.
+
+Disclaimer:
+THIS DATASET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Citation:
+If our work is useful for your research, please consider citing:
+
+@article{zhou2024kunqudb,
+  title={KunquDB: An Attempt for Speaker Verification in the Chinese Opera Scenario},
+  author={Zhou, Huali and Lin, Yuke and Liu, Dong and Li, Ming},
+  journal={arXiv preprint arXiv:2403.13356},
+  year={2024}
+}
